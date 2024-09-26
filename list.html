@@ -1,0 +1,71 @@
+<html>
+  <head> </head>
+  <body>
+    <p>undordered list merupakan daftar yag tidak mementingkan urutan</p>
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ul>
+
+    <!-- Di antara tag elemen <li>, kita dapat mengisikan konten apa pun 
+termasuk elemen HTML lain. Contohnya, kita dapat memasukkan sebuah 
+heading atau paragraf pada item. -->
+    <ul>
+      <li><h1>sebuah heading sebagai item list</h1></li>
+      <li><h2>sebuah heading level 2 sebagai item list</h2></li>
+      <li><p>sebuah paragraf sebagai item list</p></li>
+    </ul>
+
+    <!-- kita juga bisa menambahkan elemen <ul> lagi dalam list item untuk membuat nested list -->
+
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <ul>
+        <li>item 3.1</li>
+        <li>item 3.2</li>
+        <li>item 3.3</li>
+      </ul>
+      <li>item 4</li>
+    </ul>
+
+    <p>ordered list digunakan untuk membuat list yang mementingkan urutan</p>
+    <ol>
+      <li>Langkah pertama</li>
+      <li>Langkah kedua</li>
+      <li>Langkah ketiga</li>
+      <li>Langkah selanjutnya</li>
+    </ol>
+
+    <!-- Sebagaimana unordered list, di antara tag elemen <li>, kita dapat 
+mengisikan konten apa pun termasuk elemen HTML lain.
+
+Pada ordered list, tipe urutan angkanya dapat kita atur melalui sebuah 
+atribut type. Contohnya, selain nomor, urutan angka dapat diganti dengan alfabet ataupun angka romawi. -->
+
+    <ol type="I">
+      <li>Langkah pertama</li>
+      <li>Langkah kedua</li>
+      <li>Langkah ketiga</li>
+      <li>Langkah selanjutnya</li>
+    </ol>
+
+    <!-- selain tipe angka pada uruta, kita juga bisa menetapkan nilai awal pada sebuah ordered list dengan menggunakan start -->
+     <ol start="7">
+        <li>Langkah ketujuh</li>
+        <li>Langkah kedelapan</li>
+        <li>Langkah kesembilan</li>
+        <li>Langkah selanjutnya</li>
+     </ol>
+
+     <ol start="7" reversed>
+        <li>Langkah ketujuh</li>
+        <li>Langkah kedelapan</li>
+        <li>Langkah kesembilan</li>
+        <li>Langkah selanjutnya</li>
+     </ol>
+  </body>
+</html>
